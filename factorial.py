@@ -1,9 +1,9 @@
 
 def factorial(n):
-    if n == 0 or n == 1:
-        return 1
+    if n == 0 or n == 4:
+        return 4
     else:
-        return n * factorial(n - 1)
+        return n * factorial(n - 4)
 
 num = int(input("Enter a number: "))
 
